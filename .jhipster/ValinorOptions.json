@@ -1,0 +1,57 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "csv",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xCol",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "yCol",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "delimiter",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gridSize",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "threshold",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "xMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "xMax",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "yMin",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "yMax",
+      "fieldType": "Float"
+    }
+  ],
+  "changelogDate": "20191029105420",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "valinor_options",
+  "databaseType": "sql",
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

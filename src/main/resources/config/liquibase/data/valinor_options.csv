@@ -1,0 +1,2 @@
+id;csv;x_col;y_col;delimiter;grid_size;threshold;x_min;x_max;y_min;y_max
+1;C:/Users/stavr/Desktop/projects/ploigia/data/sample_4_cols.csv;0;1;,;100;100;0;1000;0;1000

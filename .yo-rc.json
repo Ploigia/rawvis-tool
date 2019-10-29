@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "gr.ploigia.rawvis_api"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "rawvis_tool",
+    "packageName": "gr.ploigia.rawvis_api",
+    "packageFolder": "gr/ploigia/rawvis_api",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2Y1YTBjMmFlYzVkN2Y0OTc1MWExZjY4NGFmNzU0MTRmOGJlMmMyYzk0ZWNhM2MyNjJjZWZjNDg4MTU1MjUyNTUxZTczMzU5OGUxOTZkM2IxM2ViOTM1OWMzYTQzNDBlMDM0MTYxZmQ4YmZkZGZjN2JlNDkzMzBjMTVmNDlmYzc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
