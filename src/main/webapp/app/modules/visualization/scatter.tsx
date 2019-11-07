@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Button, Col, Row} from 'reactstrap';
+import {Badge, Button, Col, Row} from 'reactstrap';
 import {IRootState} from 'app/shared/reducers';
 import {fetchDatapoints, setQuery} from "app/modules/visualization/visualization.reducer";
 import * as d3 from 'd3';
@@ -146,6 +146,7 @@ class ScatterPlot extends React.Component<IScatterPlotProps> {
       <div className="chart-wrapper" ref={node => {
         this.chartWrapper = node;
       }}>
+        <div style={{position: 'absolute', top: 10, right: 30}}>Number of objects: {this.props.datapoints.length}</div>
         <svg className="chart" width={this.width} height={this.height} ref={(node) => {
           this.svg = node;
         }}>
